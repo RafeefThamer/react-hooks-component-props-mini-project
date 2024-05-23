@@ -1,7 +1,8 @@
+// App.js
 import React from 'react';
-import Header from './components/Header.jsx';
-import About from './components/About.jsx';
-import ArticleList from './components/ArticleList.jsx';
+import Header from '../src/components/Header';
+import About from '../src/components/About';
+import ArticleList from '../src/components/ArticleList.jsx';
 import blogData from '../data/blog';
 
 function App() {
